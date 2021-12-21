@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question Game</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-- ----- ENCABEZADO ----- -->
+    <header class="header">GAME</header>
+
+    <!-- ----- MAIN DE LA APP ----- -->
+    <main>
+      <div class="container">
+        <div class="card" id="card">
+          <div class="card-header">
+            <h2 id="round"></h2>
+          </div>
+          <div class="card-body" id="card-body">
+            <p id="points"></p>
+            <div class="content">
+              <div class="question" id="question"></div>
+              <div class="choices" id="choices"></div>
+            </div>
+          </div>
+          <div class="card-footer" id="card-footer">
+            <!-- <button class="btn btn-back">asdasda</button> -->
+            <button class="btn btn-withdraw" id="withdraw">Retirarse</button>
+            <div class="progreso">
+              <p id="progress"></p>
+              <p id="next-point">hola</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ----- FOOTER ----- -->
+    <footer class="footer">
+      <div>Maycol Steven</div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

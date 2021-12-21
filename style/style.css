@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+/* --<<--- HEADER --->>-- */
+.header {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* --<<--- MAIN --->>-- */
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* -- QUESTION GAME -- */
+
+.card {
+  width: 60%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+  border-radius: 10px 10px 0 0;
+}
+.card-header {
+  width: 100%;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 10px 0;
+}
+.card-header h2 {
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+#points {
+  font-size: 1.2rem;
+  text-align: right;
+  font-weight: 600;
+  color: rgb(201, 0, 70);
+  margin-bottom: 25px;
+}
+.content {
+  text-align: center;
+}
+.choices {
+  margin-top: 15px;
+}
+.btn-choice {
+  width: 80%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+}
+.btn-choice:hover,
+.btn-choice:focus {
+  background: rgb(145, 2, 85);
+  color: #fff;
+}
+
+.card-footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn {
+  width: 40%;
+  padding: 5px;
+  outline: none;
+  background: #000;
+  border: none;
+  color: #fff;
+  transition: 0.1s;
+  margin-bottom: 10px;
+}
+
+.btn.btn-withdraw:hover {
+  background: rgb(201, 0, 70);
+}
+
+.progreso {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: rgb(145, 2, 85);
+}
+
+/* -- GAME OVER -- */
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.result input {
+  margin: 15px;
+  text-align: center;
+  outline: none;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 5px;
+  width: 60%;
+  color: rgb(145, 2, 85);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.result input:hover,
+.result input:focus {
+  border: 1px solid rgb(201, 0, 70);
+}
+.result button {
+  padding: 5px 20px;
+  border: none;
+}
+.result button:enabled {
+  background: rgba(0, 0, 0, 0.15);
+}
+.result button:hover:enabled {
+  background: rgb(201, 0, 70);
+  color: #fff;
+}
+/* BOTONES DE GAME OVER */
+.result-btns {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.result-btns .btn-back:hover {
+  background: rgb(201, 0, 70);
+}
+.btn-home:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* --<<--- FOOTER --->>-- */
+.footer div {
+  /* height: 50px; */
+  position: absolute;
+  top: 95%;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
