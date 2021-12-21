@@ -17,6 +17,7 @@ INSTRUCCIONES DEL JUEGO:
 INFORMACION DEL RETO:
     - El reto esta escrito en HTML, CSS y Javascript
     - Javascript se utilizó con la estructura de programación orientada a objetos (OOP) como se especificó en la guia del reto.
+    - La pagina inicial es home.htlm que contiene el inicio del programa
     - El programa tiene clases y una funcion main en app.js
     - No se utilizó base de datos para una facil ejecucion del juego
     - En el archivo /data/data.js estan los datos de las 25 preguntas, con sus opciones y respuestas
