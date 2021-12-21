@@ -4,6 +4,7 @@ FECHA DEL RETO: 18/12/2021 11:25am  -->  21/12/2021 11:25am
 
 
 INSTRUCCIONES DEL JUEGO:
+  - El juego es de preguntas matematicas, de fisica, probabilidad o geometria, dependiendo de la categoria en que se encuentre
   - La pagina de inicio permite ir a Jugar o ver el puntaje de los jugadores
   - El juego consta de 5 rondas
   - Cada ronda es una categoria con nivel de dificultad
